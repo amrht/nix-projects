@@ -1,0 +1,8 @@
+#!/nix/store/9d1gknfymymdfm8fwry11vxvh80q7sj6-python3-3.10.13/bin/python
+
+import sys
+
+from rofication import RoficationGui, RoficationClient
+
+if __name__ == '__main__':
+    RoficationGui(RoficationClient(sys.stdout)).run()
